@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="828A92EB-C558-6208-FBE1-2EFF0DCBB0AB" name="User">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:22 UTC</createdTime>
+<generatorID>ACECA6CB-F532-C566-3622-CABD7011845A</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UserID" id="4C56A4EB-4C3B-2A5B-3383-19F4456C9F49">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:22 UTC</createdTime>
+<generatorID>0C4BC283-1FD3-6558-53E6-0E69BA9B6C77</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Username" id="EA1143FC-06A4-742C-93E4-9310B46DCD6D">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:22 UTC</createdTime>
+<generatorID>25DFE97C-7FDC-A86F-D683-0E93BC5B9370</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="1E704D1E-46FC-F471-1FB7-CCC42361EAF6">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:22 UTC</createdTime>
+<generatorID>1B7D8DDD-B4B4-8D6E-C340-75F014DE7AC7</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Password" id="6E07A96E-A59B-9AAB-ECEB-5ADAEF5FDB2A">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:22 UTC</createdTime>
+<generatorID>B3D2503E-470E-DFD4-A84C-D80B424FE14D</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DoB" id="B36BE2A9-701F-ABBC-DDAA-171FED304917">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:22 UTC</createdTime>
+<generatorID>FCFA780F-FCCA-FF9D-5842-E66CF97B7046</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Subscription_SubscriptionID" id="9E595AD4-01E1-3F38-A8B6-97C7346B845E">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:22 UTC</createdTime>
+<generatorID>1D7BE644-FBCF-A98F-6558-2C49C5BE4C07</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="203CA4CF-EB69-746F-1F05-516CDCCD6570" referredColumn="02D1DBC6-FBB2-04A7-3750-DFFB99E66AD2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C0A1E55C-9B9A-4B38-304F-486E6B09FE42" name="User_PK">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:22 UTC</createdTime>
+<generatorID>D6FB5D9D-7E59-3803-BF7F-F591AE1C3FB7</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C56A4EB-4C3B-2A5B-3383-19F4456C9F49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8E9B08D-1ABC-517B-AF57-2188E2A935FD" name="User_Subscription_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:23 UTC</createdTime>
+<generatorID>77C73E83-1B19-495E-3863-E28E6F1783CD</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E595AD4-01E1-3F38-A8B6-97C7346B845E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="75ECC859-E0FC-6637-FEFD-48E8A775E4D9" name="RecordLabel">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:25:10 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<engineerTo>
+<item key="32A32BD9-9C4B-7AAE-06BB-04043A9A77F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RecordLabelID" id="49006EF3-ED9B-530C-3EFB-411F621B85A0">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:25:18 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<engineerTo>
+<item key="32A32BD9-9C4B-7AAE-06BB-04043A9A77F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="066E4292-DD26-A374-D552-2A3717CE83B6">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:25:39 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<engineerTo>
+<item key="32A32BD9-9C4B-7AAE-06BB-04043A9A77F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Founder" id="DAD0DADB-3675-AD07-2ADC-9027A6AEEE1D">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:25:55 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<engineerTo>
+<item key="32A32BD9-9C4B-7AAE-06BB-04043A9A77F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="F21B70A6-CFB5-525A-E59B-CAD70E6717C3">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:26:11 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<engineerTo>
+<item key="32A32BD9-9C4B-7AAE-06BB-04043A9A77F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4199B87D-A4D5-DB33-0AD7-BC02371E5499" name="RecordLabel PK">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:25:25 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<engineerTo>
+<item key="32A32BD9-9C4B-7AAE-06BB-04043A9A77F3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>49006EF3-ED9B-530C-3EFB-411F621B85A0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

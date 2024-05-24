@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B3DEA9EB-234D-5EE9-2000-3B84BA6DD882" containerWithKeyObject="385DBAB3-9ED1-FC07-3C5E-0E26A8A19089" localFKIndex="336DF0B0-7629-1513-4B3B-46CCDF2C5F1F" name="Likes_Song_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:23 UTC</createdTime>
+<generatorID>15ED7B9A-E9B7-CA7A-50DC-D6A39B0896D2</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<referredTableLongName>Song</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B4B70BED-3CF2-FFE3-2609-F50D282369EC</referredTableID>
+<keyObject>011B41C2-781A-28DC-5161-75367F29C5B9</keyObject>
+<referredKeyID>011B41C2-781A-28DC-5161-75367F29C5B9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SongID,Album_AlbumID,Artist_ArtistID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A20C778A-B6A9-3F83-37AA-B0A3AE4E37B0" name="Writer">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:10:45 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<engineerTo>
+<item key="32A32BD9-9C4B-7AAE-06BB-04043A9A77F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="WriterID" id="FF100ED6-AF2E-8438-9C82-175C7519AAF9">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:10:51 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<engineerTo>
+<item key="32A32BD9-9C4B-7AAE-06BB-04043A9A77F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="007B6010-3411-E935-D3A8-7408E49A7259">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:11:04 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<engineerTo>
+<item key="32A32BD9-9C4B-7AAE-06BB-04043A9A77F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Biography" id="0BCADA8A-58CC-4F1D-ECDF-DCF46D974F9E">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:11:18 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<engineerTo>
+<item key="32A32BD9-9C4B-7AAE-06BB-04043A9A77F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21CBDCCD-F6FE-CB31-D5A1-13F84FCC9231" name="Writer PK">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:10:58 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<engineerTo>
+<item key="32A32BD9-9C4B-7AAE-06BB-04043A9A77F3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FF100ED6-AF2E-8438-9C82-175C7519AAF9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

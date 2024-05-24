@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BFCE58E8-23F6-C915-91C2-814D656B8C6E" name="Subscription">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:23:18 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<engineerTo>
+<item key="32A32BD9-9C4B-7AAE-06BB-04043A9A77F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SubscriptionID" id="94C02C15-636C-27CF-5973-5FA59743B21C">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:23:27 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<engineerTo>
+<item key="32A32BD9-9C4B-7AAE-06BB-04043A9A77F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price" id="351CDB28-964F-71A9-A5F3-E66A5F8B34B3">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:23:42 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<engineerTo>
+<item key="32A32BD9-9C4B-7AAE-06BB-04043A9A77F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PlanName" id="C335C8DC-92B8-C570-C9DB-4EADEB823476">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 13:18:31 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<engineerTo>
+<item key="32A32BD9-9C4B-7AAE-06BB-04043A9A77F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="382DAEA7-8943-55AB-A55C-1CBB52D41040" name="Subscription PK">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:23:36 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<engineerTo>
+<item key="32A32BD9-9C4B-7AAE-06BB-04043A9A77F3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>94C02C15-636C-27CF-5973-5FA59743B21C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

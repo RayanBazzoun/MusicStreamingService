@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E4CB077-B2D8-1CDF-FF0B-38A65671A2FD" name="Album">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:22 UTC</createdTime>
+<generatorID>3D5D90E6-7F51-105F-0BFE-249435B9C5EF</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AlbumID" id="12E9EA65-9777-DD90-2958-F2816C75CBA3">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:22 UTC</createdTime>
+<generatorID>7883C889-392C-6781-CAD3-3B8C625DC203</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Title" id="617C94D5-C095-A4C8-2AC1-F696C710997A">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:22 UTC</createdTime>
+<generatorID>3F0D4859-760F-6144-BB0B-64C54354FADE</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NbOfTracks" id="93D5D002-4BB6-10D5-C400-C9DF5A2808A4">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:22 UTC</createdTime>
+<generatorID>1F11A916-9C60-BCE6-49DE-0D6296C486DB</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ReleaseYear" id="4BA6D5B6-33C3-1743-E285-6F11919F04E6">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:22 UTC</createdTime>
+<generatorID>718C26D1-36C4-86D1-AFB2-A9DEB58AA21D</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Duration" id="B1911EB9-5C89-CC30-A788-C17118EA9802">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:22 UTC</createdTime>
+<generatorID>9351CA23-821B-753D-EB14-922E9BD5B7B1</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Artist_ArtistID" id="8A55CBC6-96CC-6979-1BEE-4C95667B99E6">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:22 UTC</createdTime>
+<generatorID>397A5930-CA5D-4101-A5EF-F4AEA7B25A05</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C59C4870-C320-B21A-28B4-C00A105D8D4A" referredColumn="BB996FB3-EF48-BE23-FD8D-2531239E45CD"/>
+</associations>
+</Column>
+<Column name="Genre_GenreID" id="52F060C0-A996-28FB-E9CE-4926F39F63EE">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:22 UTC</createdTime>
+<generatorID>9C03F74E-F1CD-C209-D38B-D4EAC5A6C2AA</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D015A855-00A3-572C-7E35-6EB3F02CC1A5" referredColumn="506E9BF2-82DC-A420-7234-2000E5EA9FE3"/>
+</associations>
+</Column>
+<Column name="RecordLabel_RecordLabelID" id="0A496F55-DC90-FCEB-B72B-EAE14D05AD36">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:22 UTC</createdTime>
+<generatorID>BE87BB9B-C7AD-32C6-F600-D733CF5832AA</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16194F4C-6DC0-8BC9-FE16-B3512872F76F" referredColumn="065C2EF0-0FAD-6B02-DAD6-2B78D0907610"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26BAC5F2-0373-28EF-DEE5-7F32AAA4F4E0" name="Album_PK">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:22 UTC</createdTime>
+<generatorID>158A271E-AC63-6488-E8E6-2D3FEAFAE2E6</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12E9EA65-9777-DD90-2958-F2816C75CBA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D81E8F7D-756A-EE28-D3FB-56F92BB2EA5C" name="Album_Artist_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:22 UTC</createdTime>
+<generatorID>DCE6CF25-421A-D9B0-93AF-98A9610DB020</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A55CBC6-96CC-6979-1BEE-4C95667B99E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1D60612-5DF8-D39C-D27E-73928D09788D" name="Album_Genre_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:23 UTC</createdTime>
+<generatorID>BE5D1F06-7ED8-C694-0416-5E10AA8C7783</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52F060C0-A996-28FB-E9CE-4926F39F63EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11B4E34A-1F6F-FA21-00F0-59A2191D59EF" name="Album_RecordLabel_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:23 UTC</createdTime>
+<generatorID>6BE2AF80-EF7E-6535-E91A-D147BE450087</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A496F55-DC90-FCEB-B72B-EAE14D05AD36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

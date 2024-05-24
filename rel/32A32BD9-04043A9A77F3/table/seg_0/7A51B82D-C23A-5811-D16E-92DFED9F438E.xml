@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A51B82D-C23A-5811-D16E-92DFED9F438E" name="Follows">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:22 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="User_UserID" id="BD140450-E4E4-5F13-8709-5AA4A4603E44">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:23 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5037651A-DF40-912A-1AB9-78CA8A7BFC2D" referredColumn="4C56A4EB-4C3B-2A5B-3383-19F4456C9F49"/>
+</associations>
+</Column>
+<Column name="Artist_ArtistID" id="5A87A6F5-2757-7DCE-BBD3-96287FF0DD9D">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:23 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2217A2CF-0707-F171-82E0-88C8CF461D36" referredColumn="BB996FB3-EF48-BE23-FD8D-2531239E45CD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1F70EDA5-0B8C-B777-4139-BE85DC7A13F2" name="Follows_PK">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:22 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD140450-E4E4-5F13-8709-5AA4A4603E44"/>
+<colUsage columnID="5A87A6F5-2757-7DCE-BBD3-96287FF0DD9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F950075-7FDB-EE47-868A-94D48A868C2F" name="Follows_User_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:22 UTC</createdTime>
+<generatorID>ABED722B-5C77-085D-11A7-C8FB55DEB4E3</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD140450-E4E4-5F13-8709-5AA4A4603E44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D22E307-722C-95E0-7A7B-49850AD9A0AB" name="Follows_Artist_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:23 UTC</createdTime>
+<generatorID>ABED722B-5C77-085D-11A7-C8FB55DEB4E3</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A87A6F5-2757-7DCE-BBD3-96287FF0DD9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52201B1D-9667-E2AA-88EF-E92040A042F6" name="Writes">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:23 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Writer_WriterID" id="2C76D1F3-A06D-F094-4D78-531FC4660C5C">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:23 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E952ECC6-3900-815B-2C50-4C546800B44F" referredColumn="2436B0B2-9C44-3089-D61F-4945B71A153D"/>
+</associations>
+</Column>
+<Column name="Song_SongID" id="C33F72E7-02F0-C06F-187E-97158907A95C">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:23 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="234C0652-8775-891B-F8FE-38EB025F790A" referredColumn="F585C766-722E-67EC-F5ED-16B0FFF5BBAE"/>
+</associations>
+</Column>
+<Column name="Song_Album_AlbumID" id="BBF9A97F-A8D0-7BA2-6FB9-B7774E676778">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:23 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="234C0652-8775-891B-F8FE-38EB025F790A" referredColumn="024E70DE-CCE6-B91A-576B-6ED45ED76C42"/>
+</associations>
+</Column>
+<Column name="Song_Artist_ArtistID" id="D467254A-A1B5-17CB-CC05-E5D8863EA48B">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:23 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="234C0652-8775-891B-F8FE-38EB025F790A" referredColumn="430D1EB5-B4CC-3557-68EE-76F13D58A702"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95DF14A9-01F4-5DDD-CD12-697C2FE8D3D0" name="Writes_PK">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:23 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C76D1F3-A06D-F094-4D78-531FC4660C5C"/>
+<colUsage columnID="C33F72E7-02F0-C06F-187E-97158907A95C"/>
+<colUsage columnID="BBF9A97F-A8D0-7BA2-6FB9-B7774E676778"/>
+<colUsage columnID="D467254A-A1B5-17CB-CC05-E5D8863EA48B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AFA1EEC-F6FD-D123-ABE9-12DE168F0485" name="Writes_Writer_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:23 UTC</createdTime>
+<generatorID>8E41D402-E29A-9545-2965-BFA017F6F726</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C76D1F3-A06D-F094-4D78-531FC4660C5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC74E152-3B13-558D-7CF5-A5D86C3EBF7B" name="Writes_Song_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:23 UTC</createdTime>
+<generatorID>8E41D402-E29A-9545-2965-BFA017F6F726</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C33F72E7-02F0-C06F-187E-97158907A95C"/>
+<colUsage columnID="BBF9A97F-A8D0-7BA2-6FB9-B7774E676778"/>
+<colUsage columnID="D467254A-A1B5-17CB-CC05-E5D8863EA48B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

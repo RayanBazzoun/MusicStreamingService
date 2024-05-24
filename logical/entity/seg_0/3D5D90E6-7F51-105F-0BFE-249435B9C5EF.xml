@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3D5D90E6-7F51-105F-0BFE-249435B9C5EF" name="Album">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 11:46:33 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<engineerTo>
+<item key="32A32BD9-9C4B-7AAE-06BB-04043A9A77F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="AlbumID" id="7883C889-392C-6781-CAD3-3B8C625DC203">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 11:46:38 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<engineerTo>
+<item key="32A32BD9-9C4B-7AAE-06BB-04043A9A77F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Title" id="3F0D4859-760F-6144-BB0B-64C54354FADE">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 11:46:49 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<engineerTo>
+<item key="32A32BD9-9C4B-7AAE-06BB-04043A9A77F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NbOfTracks" id="1F11A916-9C60-BCE6-49DE-0D6296C486DB">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 11:47:08 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<engineerTo>
+<item key="32A32BD9-9C4B-7AAE-06BB-04043A9A77F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ReleaseYear" id="718C26D1-36C4-86D1-AFB2-A9DEB58AA21D">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 11:47:34 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<engineerTo>
+<item key="32A32BD9-9C4B-7AAE-06BB-04043A9A77F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Duration" id="9351CA23-821B-753D-EB14-922E9BD5B7B1">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 11:47:46 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<engineerTo>
+<item key="32A32BD9-9C4B-7AAE-06BB-04043A9A77F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ArtistID" id="397A5930-CA5D-4101-A5EF-F4AEA7B25A05">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 11:55:48 UTC</createdTime>
+<generatorID>DCE6CF25-421A-D9B0-93AF-98A9610DB020</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<engineerTo>
+<item key="32A32BD9-9C4B-7AAE-06BB-04043A9A77F3" value="true"/>
+</engineerTo>
+<referedAttribute>8451F598-C254-5F5C-AEEF-D295128012BF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GenreID" id="9C03F74E-F1CD-C209-D38B-D4EAC5A6C2AA">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:14:43 UTC</createdTime>
+<generatorID>BE5D1F06-7ED8-C694-0416-5E10AA8C7783</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<engineerTo>
+<item key="32A32BD9-9C4B-7AAE-06BB-04043A9A77F3" value="true"/>
+</engineerTo>
+<referedAttribute>72B325C5-6BA7-B1E4-02AD-8F6B56841FC4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RecordLabelID" id="BE87BB9B-C7AD-32C6-F600-D733CF5832AA">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:27:17 UTC</createdTime>
+<generatorID>6BE2AF80-EF7E-6535-E91A-D147BE450087</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<engineerTo>
+<item key="32A32BD9-9C4B-7AAE-06BB-04043A9A77F3" value="true"/>
+</engineerTo>
+<referedAttribute>49006EF3-ED9B-530C-3EFB-411F621B85A0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="158A271E-AC63-6488-E8E6-2D3FEAFAE2E6" name="Album PK">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 11:46:42 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<engineerTo>
+<item key="32A32BD9-9C4B-7AAE-06BB-04043A9A77F3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7883C889-392C-6781-CAD3-3B8C625DC203</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

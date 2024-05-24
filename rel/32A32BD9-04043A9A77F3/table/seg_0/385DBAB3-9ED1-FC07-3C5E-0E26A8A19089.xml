@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="385DBAB3-9ED1-FC07-3C5E-0E26A8A19089" name="Likes">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:23 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Song_SongID" id="2B044EFA-AC51-C046-3324-587B48EFD069">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:23 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3DEA9EB-234D-5EE9-2000-3B84BA6DD882" referredColumn="F585C766-722E-67EC-F5ED-16B0FFF5BBAE"/>
+</associations>
+</Column>
+<Column name="Song_AlbumID" id="7E444D5C-7239-685D-E1B8-1CF0E79230A7">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:23 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3DEA9EB-234D-5EE9-2000-3B84BA6DD882" referredColumn="024E70DE-CCE6-B91A-576B-6ED45ED76C42"/>
+</associations>
+</Column>
+<Column name="Song_ArtistID" id="25DA128C-370C-9786-4847-D8AE93299EE8">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:23 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3DEA9EB-234D-5EE9-2000-3B84BA6DD882" referredColumn="430D1EB5-B4CC-3557-68EE-76F13D58A702"/>
+</associations>
+</Column>
+<Column name="User_UserID" id="66F59E28-D09E-E9D0-B735-7CE726B16D8D">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:23 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9FFEEB3-36AA-D940-6DEE-833FC0E6BFCE" referredColumn="4C56A4EB-4C3B-2A5B-3383-19F4456C9F49"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70D92028-A992-F381-90E8-23C45F0C721F" name="Likes_PK">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:23 UTC</createdTime>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B044EFA-AC51-C046-3324-587B48EFD069"/>
+<colUsage columnID="7E444D5C-7239-685D-E1B8-1CF0E79230A7"/>
+<colUsage columnID="25DA128C-370C-9786-4847-D8AE93299EE8"/>
+<colUsage columnID="66F59E28-D09E-E9D0-B735-7CE726B16D8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="336DF0B0-7629-1513-4B3B-46CCDF2C5F1F" name="Likes_Song_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:23 UTC</createdTime>
+<generatorID>15ED7B9A-E9B7-CA7A-50DC-D6A39B0896D2</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B044EFA-AC51-C046-3324-587B48EFD069"/>
+<colUsage columnID="7E444D5C-7239-685D-E1B8-1CF0E79230A7"/>
+<colUsage columnID="25DA128C-370C-9786-4847-D8AE93299EE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B79BC15C-251E-F016-400C-D0FAE8EA6DAF" name="Likes_User_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-05-04 12:29:23 UTC</createdTime>
+<generatorID>15ED7B9A-E9B7-CA7A-50DC-D6A39B0896D2</generatorID>
+<ownerDesignName>RayanAndHussein</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66F59E28-D09E-E9D0-B735-7CE726B16D8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
